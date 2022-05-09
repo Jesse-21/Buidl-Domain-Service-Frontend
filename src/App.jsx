@@ -8,10 +8,10 @@ import ethLogo from './assets/ethlogo.png';
 import { networks } from './utils/networks';
 
 // Constants
-const TWITTER_HANDLE = 'janvinsha';
+const TWITTER_HANDLE = 'of1nft';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
-const tld = '.buidl';
+const tld = '.of1';
 const CONTRACT_ADDRESS = '0x77556b05cEd56EeB8eDAE5a0e9cD2b4e9948534b';
 
 const App = () => {
@@ -349,8 +349,8 @@ useEffect(() => {
 		<div className="header-container">
 	<header>
 		<div className="left">
-			<p className="title">🛠Buidl Name Service</p>
-			<p className="subtitle">Your immortal API on the blockchain!</p>
+			<p className="title">🛠OF1 Name Service</p>
+			<p className="subtitle">Of1NFT's own web3 domain name service!</p>
 		</div>
 		{/* Display a logo and wallet connection status*/}
 		<div className="right">
