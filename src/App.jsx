@@ -11,7 +11,7 @@ import { networks } from './utils/networks';
 const TWITTER_HANDLE = 'of1nft';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
-const tld = '.of1';
+const tld = '.artist';
 const CONTRACT_ADDRESS = '0x5621503Fd25214Ff7c62A2D6e570e7c4409a2634';
 
 const App = () => {
@@ -268,7 +268,7 @@ const switchNetwork = async () => {
 				<input
 					type="text"
 					value={record}
-					placeholder='what are you buidling'
+					placeholder='choice of name'
 					onChange={e => setRecord(e.target.value)}
 				/>
 
@@ -349,8 +349,8 @@ useEffect(() => {
 		<div className="header-container">
 	<header>
 		<div className="left">
-			<p className="title">🛠OF1 Name Service</p>
-			<p className="subtitle">Of1NFT's own web3 domain name service!</p>
+			<p className="title">Artist Name Service</p>
+			<p className="subtitle">A web3 domain name service for artists!</p>
 		</div>
 		{/* Display a logo and wallet connection status*/}
 		<div className="right">
