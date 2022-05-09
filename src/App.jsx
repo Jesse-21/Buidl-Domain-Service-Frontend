@@ -12,7 +12,7 @@ const TWITTER_HANDLE = 'of1nft';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
 const tld = '.of1';
-const CONTRACT_ADDRESS = '0x77556b05cEd56EeB8eDAE5a0e9cD2b4e9948534b';
+const CONTRACT_ADDRESS = '0x5621503Fd25214Ff7c62A2D6e570e7c4409a2634';
 
 const App = () => {
 	const [currentAccount, setCurrentAccount] = useState('');
