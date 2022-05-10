@@ -167,7 +167,7 @@ const fetchMints = async () => {
 const switchNetwork = async () => {
 	if (window.ethereum) {
 		try {
-			// Try to switch to the Polygon mainnet
+			// Try to switch to the Polygon Mainnet
 			await window.ethereum.request({
 				method: 'wallet_switchEthereumChain',
 				params: [{ chainId: '0x89' }], // Check networks.js for hexadecimal network ids
@@ -232,7 +232,7 @@ const switchNetwork = async () => {
 	// Render methods
 	const renderNotConnectedContainer = () => (
 		<div className="connect-wallet-container">
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/V6pUPLIUyXcsiCjwy3" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/art-nft-of1nft-V6pUPLIUyXcsiCjwy3">via GIPHY</a></p>
+// <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/V6pUPLIUyXcsiCjwy3" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/art-nft-of1nft-V6pUPLIUyXcsiCjwy3">via GIPHY</a></p>
       {/* Call the connectWallet function we just wrote when the button is clicked */}
 			<button onClick={connectWallet} className="cta-button connect-wallet-button">
 				Connect Wallet
